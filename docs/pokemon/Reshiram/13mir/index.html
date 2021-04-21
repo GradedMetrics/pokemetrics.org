@@ -30,17 +30,18 @@
     <script>
       const segmentCount = 0;
       const l = window.location;
-      window.location.replace(
-        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-        l.pathname.split('/').slice(0, 1 + segmentCount).join('/') + '/?p=/' +
-        l.pathname.slice(1).split('/').slice(segmentCount).join('/').replace(/&/g, '~and~') +
-        (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-        l.hash
-      );
+      window.location.replace((
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '')
+        + l.pathname.split('/').slice(0, 1 + segmentCount).join('/') + '/?p=/'
+        + l.pathname.slice(1).split('/').slice(segmentCount).join('/').replace(/&/g, '~and~')
+        + (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '')
+        + l.hash
+      ).replace(//$/, ''));
     </script>
   </head>
   <body>
     <h1>Pokémon - Reshiram EX 22 · 2012 Pokemon Black & White Next Destinies on PokéMetrics.org</h1>
     <p>PSA has graded 18 of these. Check the grade history and find other Reshiram cards here.</p>
+    <noscript>JavaScript is required to run PokéMetrics.</noscript>
   </body>
 </html>
