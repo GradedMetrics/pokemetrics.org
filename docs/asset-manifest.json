@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/static/js/main.5dbd1d8a.chunk.js",
-    "main.js.map": "/static/js/main.5dbd1d8a.chunk.js.map",
+    "main.js": "/static/js/main.94680ff4.chunk.js",
+    "main.js.map": "/static/js/main.94680ff4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bd763447.js",
     "runtime-main.js.map": "/static/js/runtime-main.bd763447.js.map",
-    "static/js/2.358c6dbb.chunk.js": "/static/js/2.358c6dbb.chunk.js",
-    "static/js/2.358c6dbb.chunk.js.map": "/static/js/2.358c6dbb.chunk.js.map",
+    "static/js/2.c14d93e1.chunk.js": "/static/js/2.c14d93e1.chunk.js",
+    "static/js/2.c14d93e1.chunk.js.map": "/static/js/2.c14d93e1.chunk.js.map",
     "index.html": "/index.html",
-    "static/js/2.358c6dbb.chunk.js.LICENSE.txt": "/static/js/2.358c6dbb.chunk.js.LICENSE.txt",
+    "static/js/2.c14d93e1.chunk.js.LICENSE.txt": "/static/js/2.c14d93e1.chunk.js.LICENSE.txt",
     "static/media/404.36902da2.jpg": "/static/media/404.36902da2.jpg",
     "static/media/patreon-icon.2e713f72.png": "/static/media/patreon-icon.2e713f72.png",
     "static/media/psa-logo.520d526c.png": "/static/media/psa-logo.520d526c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.bd763447.js",
-    "static/js/2.358c6dbb.chunk.js",
-    "static/js/main.5dbd1d8a.chunk.js"
+    "static/js/2.c14d93e1.chunk.js",
+    "static/js/main.94680ff4.chunk.js"
   ]
 }
